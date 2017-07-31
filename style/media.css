@@ -1,0 +1,236 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.menu li a {
+	padding-right: 10px;	
+}
+.members, .buy-ticket{
+	width: 100px;
+}
+
+.filter, .reset-filter, .download-pdf{
+	width: 180px;
+	height: 30px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+section{
+	width: 220px;
+	height: 375px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+section img{
+	width: 220px;
+	height: 175px;
+}
+form{
+
+	width: 220px;
+	margin-bottom: 5px;
+	padding: 5px 0px 10px 10px;
+	
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+header{
+	height: 100px;
+}
+
+section ul {
+	padding-top: 5px;
+}
+footer{
+	height: 500px !important;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+header{
+		height: 120px;
+	}
+.menu li a {
+	font-size: 14px;
+	padding-right: 15px;	
+}
+
+.filter, .reset-filter, .download-pdf{
+	width: 150px;
+	height: 25px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+}
+section{
+	width: 220px;
+	height: 375px;
+	margin-bottom: 5px;
+	margin-left: -20px;
+}
+section img{
+	width: 220px;
+	height: 175px;
+}
+form{
+	width: 150px;
+	margin-bottom: 5px;
+	padding: 5px 8px 5px 8px;
+}
+ .form-title{
+	font-size: 14px;
+}
+label{
+  font-size: 12px;
+ }
+
+h2{
+  font-size: 25px; 
+}
+ 
+.contacts{
+	font-size: 16px;
+	padding-top: 10px;
+}
+footer p{
+	font-size: 12px;
+  	padding-top: 20px;
+}
+.socials{
+	padding-top: 10px;
+} 
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.menu li a {
+	font-size: 13px;
+	padding-right: 12px;	
+}
+header{
+	height: 135px;
+}
+h2{
+  font-size: 25px;
+}
+
+
+section{
+	width: 140px;
+	height: 270px;
+	margin-bottom: 5px;
+	margin-left: -15px;
+}
+section p{
+	font-size: 15px;
+	padding-left: 5px;
+	text-align: center;
+}
+section ul {
+	font-size: 13px;
+	font-family: "Ubuntu";
+	text-align: center;
+	padding-top: 0px;
+}
+section img{
+	width: 140px;
+	height: 125px;
+}
+
+img[alt="logo"] {
+width: 250px;
+height: 80px;
+}
+.contacts{
+	font-size: 16px;
+	padding-top: 10px;
+}
+footer p{
+	font-size: 13px;
+  	padding-top: 10px;
+}
+.socials{
+	padding-top: 5px;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+.filter, .reset-filter, .download-pdf{
+	width: 100px;
+	margin-bottom: 5px;
+}
+section{
+	width: 110px;
+	height: 305px;
+	margin-bottom: 10px;
+	margin-left: -20px;
+}
+section img{
+	width: 150px;
+	height: 125px;
+}
+form{
+	width: 150px;
+	margin-bottom: 5px;
+	padding: 5px 8px 5px 8px;
+}
+ .form-title{
+	font-size: 14px;
+}
+label{
+  font-size: 12px;
+ }
+h2{
+  font-size: 20px;
+}
+
+.contacts{
+	font-size: 14px;
+	padding-top: 5px;
+}
+footer p{
+	font-size: 13px;
+  	padding-top: 5px;
+}
+.socials{
+	padding-top: 5px;
+}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
